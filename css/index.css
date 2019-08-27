@@ -1,0 +1,123 @@
+.principal_index {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.principal_index .sm2 {
+  background-color: #dcb9eb;
+  width: 80%;
+  line-height: 25px;
+  border-radius: 6rem 0 6em 0;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  box-shadow: 4px 2px 18px;
+}
+.principal_index .sm2 h1 {
+  font-family: monospace;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 4px 1px 3px rgba(78, 75, 75, 0.91);
+  text-align: center;
+  padding-top: 1rem;
+}
+.principal_index .sm2 h4 {
+  font-family: monospace;
+  color: white;
+  font-size: 1.8rem;
+  text-shadow: 4px 1px 3px rgba(78, 75, 75, 0.91);
+  text-align: center;
+  padding-top: 1rem;
+}
+.principal_index .sm2 p {
+  width: 90%;
+  color: black;
+  font-size: 1em;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  text-align: center;
+  font-style: normal;
+  text-shadow: 4px 1px 3px rgba(78, 75, 75, 0.91);
+  /*text-transform: uppercase;*/
+}
+.principal_index .sm1 {
+  background-color: #FFC200;
+  float: right;
+  border-radius: 0 6rem 6rem 0;
+  width: 80%;
+  line-height: 25px;
+  margin-bottom: 3rem;
+  box-shadow: 4px 2px 18px;
+}
+.principal_index .sm1 h1 {
+  font-family: monospace;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 4px 1px 3px rgba(78, 75, 75, 0.91);
+  text-align: center;
+  padding-top: 1rem;
+}
+.principal_index .sm1 h4 {
+  font-family: monospace;
+  color: white;
+  font-size: 1.8rem;
+  text-shadow: 4px 1px 3px rgba(78, 75, 75, 0.91);
+  text-align: center;
+  padding-top: 1rem;
+}
+.principal_index .sm1 p {
+  width: 90%;
+  color: black;
+  font-size: 1em;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  text-align: center;
+  font-style: normal;
+  text-shadow: 4px 1px 3px rgba(78, 75, 75, 0.91);
+  /*text-transform: uppercase;*/
+}
+.principal_index .sm {
+  position: relative;
+  background-color: #1CFF01;
+  width: 80%;
+  height: 100% auto;
+  line-height: 25px;
+  border-radius: 0 6rem 0 6rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  box-shadow: 4px 2px 18px;
+}
+.principal_index .sm h1 {
+  font-family: monospace;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 4px 1px 3px rgba(78, 75, 75, 0.91);
+  text-align: center;
+  padding-top: 1rem;
+}
+.principal_index .sm h4 {
+  font-family: monospace;
+  color: black;
+  font-size: 1.8rem;
+  text-shadow: 4px 1px 3px rgba(78, 75, 75, 0.91);
+  text-align: center;
+  padding-top: 1rem;
+}
+.principal_index .sm p {
+  width: 90%;
+  color: black;
+  font-size: 1em;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  text-align: center;
+  font-style: normal;
+  text-shadow: 4px 1px 3px rgba(78, 75, 75, 0.91);
+  /*text-transform: uppercase;*/
+}
+
+/*# sourceMappingURL=index.css.map */

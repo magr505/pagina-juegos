@@ -1,0 +1,240 @@
+main {
+  font-family: serif;
+  width: 100%;
+}
+main .men {
+  width: 98%;
+  border-left: 1%;
+  border-right: 1%;
+  text-align: center;
+  margin: 1rem;
+  font-family: inherit;
+  text-shadow: 2px 2px 4px rgba(45, 162, 67, 0.61);
+}
+main .men h1 {
+  font-size: 2.8rem;
+  margin: 8px auto;
+}
+main .men h3 {
+  font-size: 1.2rem;
+}
+main .pl {
+  width: 95%;
+  height: auto;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  /*background-color: rgba(3,3,23,0.5);*/
+}
+main .pl .principal {
+  width: 80%;
+  height: auto;
+  /*background-color: aqua;*/
+}
+main .pl .principal .card {
+  width: 23.6%;
+  margin: 5px 5px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.91);
+  border-radius: 1em;
+  box-shadow: 3px 2px 8px;
+  text-shadow: 1px 1px 1px rgba(78, 78, 78, 0.4);
+  vertical-align: top;
+}
+main .pl .principal .card img {
+  width: 100%;
+  height: 15em;
+  border-radius: 5px;
+}
+main .pl .principal .card p {
+  width: 95%;
+}
+main .pl .principal .card h3 {
+  text-align: center;
+  padding: 2px;
+  background-color: chartreuse;
+  border-radius: 1em;
+  box-shadow: 1px 3px 2px rgba(7, 78, 78, 0.5);
+}
+main .pl .principal .card .ver {
+  width: 98%;
+  height: 11rem;
+  text-align: justify;
+  margin: 5px;
+  justify-content: center;
+  color: #074e4e;
+}
+main .pl .principal .card .ver .mas {
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: antiquewhite;
+  border-bottom: 2em;
+  border-radius: 2em;
+}
+main .pl .principal .pag {
+  margin-top: 8px;
+  width: 99%;
+  text-align: center;
+}
+main .pl .principal .pag a {
+  vertical-align: middle;
+}
+main .pl .principal .pag li {
+  vertical-align: text-top;
+  width: 5%;
+  display: inline-block;
+}
+main .pl .principal .pag li i {
+  color: brown;
+}
+main .pl .principal .video {
+  width: 100%;
+  background-color: transparent;
+}
+main .pl .principal .video iframe {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+main .pl aside, main .pl .principal {
+  display: inline-block;
+  align-items: flex-start;
+}
+main .pl aside {
+  width: 19.6%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 1em;
+  vertical-align: top;
+}
+main .pl aside .des {
+  display: block;
+  background-color: white;
+  width: 94%;
+  margin: 5px;
+  padding: 3px;
+  line-height: 22px;
+}
+main .pl aside .des ::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 35px 35px 0;
+  border-style: solid;
+  border-color: rgba(45, 162, 67, 0.61) transparent transparent;
+  transform: rotate(-3deg);
+  left: 1010px;
+  top: 411px;
+  z-index: -1;
+  display: none;
+}
+main .pl aside .des ::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 22px;
+  position: absolute;
+  background-color: chartreuse;
+  left: 1009px;
+  top: 391px;
+  z-index: 1;
+  display: none;
+}
+main .pl aside .des h3 {
+  background-color: chartreuse;
+}
+main .pl aside .des nav, main .pl aside .des li {
+  width: 99%;
+}
+main .pl aside .des a {
+  padding: 8px;
+}
+main .pl aside .des1 {
+  display: block;
+  background-color: white;
+  width: 94%;
+  margin: 5px;
+  padding: 3px;
+  line-height: 22px;
+}
+main .pl aside .des1 ::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 35px 35px 0;
+  border-style: solid;
+  border-color: rgba(45, 162, 67, 0.61) transparent transparent;
+  transform: rotate(-3deg);
+  left: 1009px;
+  top: 737px;
+  z-index: -1;
+  display: none;
+}
+main .pl aside .des1 ::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 22px;
+  position: absolute;
+  background-color: chartreuse;
+  left: 1008px;
+  top: 716px;
+  z-index: 1;
+  display: none;
+}
+main .pl aside .des1 h3 {
+  background-color: chartreuse;
+}
+main .pl aside .des1 nav, main .pl aside .des1 li {
+  width: 99%;
+}
+main .pl aside .des1 a {
+  padding: 8px;
+}
+main .pl aside .des2 {
+  display: block;
+  background-color: white;
+  width: 94%;
+  margin: 5px;
+  padding: 3px;
+  line-height: 22px;
+}
+main .pl aside .des2 ::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 35px 35px 0;
+  border-style: solid;
+  border-color: rgba(45, 162, 67, 0.61) transparent transparent;
+  transform: rotate(-3deg);
+  left: 1009px;
+  top: 1034px;
+  z-index: -1;
+  display: none;
+}
+main .pl aside .des2 ::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 22px;
+  position: absolute;
+  background-color: chartreuse;
+  left: 1008px;
+  top: 1013px;
+  z-index: 1;
+  display: none;
+}
+main .pl aside .des2 h3 {
+  background-color: chartreuse;
+}
+main .pl aside .des2 nav, main .pl aside .des2 li {
+  width: 99%;
+}
+main .pl aside .des2 a {
+  padding: 8px;
+}
+
+/*# sourceMappingURL=main.css.map */

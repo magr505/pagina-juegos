@@ -1,0 +1,115 @@
+$smart:480px;
+$tablet:720px;
+$pc:1024px;
+@media (max-width: $smart){
+    header{
+        .logo,.menu{
+            display: block;
+        }
+        .menu ul{
+            width: 100%;
+        }
+        .menu li{
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+    }
+    main{
+        width: 100%;
+        .pl{
+        width: 95%;
+            margin-left:2.5%;
+        margin-right:2.5%;
+        .principal{
+            width: 95%;
+            margin-left: 1%;
+            margin-right: 1%;
+            .card{
+                width: 100%;
+                .ver{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        
+         aside{
+             width: 99%;
+             padding: 0;
+                margin: 0;
+        display: block;
+        align-items: flex-start;
+    }
+    }
+         .men{
+        padding: 0;
+        margin: 0;
+             h1{
+                 font-size: 2.4rem;
+             }
+    }
+    }
+   
+    
+}
+@media (min-width: $smart) and (max-width: $tablet){
+     main{
+        .pl{
+        .principal{
+            width: 65%;
+            margin-left: 1%;
+            margin-right: 1%;
+            .card{
+                max-width: 52%;
+                min-width: 45%;
+                .ver{
+                    height: 16rem;
+                }
+            }
+        }
+            aside{
+                width: 32%;
+                padding: 0;
+                margin: 0;
+                .des{
+                    margin: 1px;
+                }
+            }
+         aside,.principal{
+            display: inline-block;
+        align-items: flex-start;
+    }
+    }
+    }
+    
+}
+@media (min-width: $tablet+1) and (max-width: $pc){
+    main{
+        .pl{
+        .principal{
+            width: 72%;
+            margin-left: 1%;
+            margin-right: 1%;
+            .card{
+                max-width: 34.5%;
+                min-width: 30%;
+                .ver{
+                    height: 16rem;
+                }
+            }
+        }
+            aside{
+                width: 25%;
+                padding: 0;
+                margin: 0;
+                .des{
+                    margin: 1px;
+                }
+            }
+         aside,.principal{
+            display: inline-block;
+        align-items: flex-start;
+    }
+    }
+    }
+}

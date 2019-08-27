@@ -1,0 +1,101 @@
+@media (max-width: 480px) {
+  header .logo, header .menu {
+    display: block;
+  }
+  header .menu ul {
+    width: 100%;
+  }
+  header .menu li {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  main {
+    width: 100%;
+  }
+  main .pl {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  main .pl .principal {
+    width: 95%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  main .pl .principal .card {
+    width: 100%;
+  }
+  main .pl .principal .card .ver {
+    font-size: 1.2rem;
+  }
+  main .pl aside {
+    width: 99%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    align-items: flex-start;
+  }
+  main .men {
+    padding: 0;
+    margin: 0;
+  }
+  main .men h1 {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 480px) and (max-width: 720px) {
+  main .pl .principal {
+    width: 65%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  main .pl .principal .card {
+    max-width: 52%;
+    min-width: 45%;
+  }
+  main .pl .principal .card .ver {
+    height: 16rem;
+  }
+  main .pl aside {
+    width: 32%;
+    padding: 0;
+    margin: 0;
+  }
+  main .pl aside .des {
+    margin: 1px;
+  }
+  main .pl aside, main .pl .principal {
+    display: inline-block;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 721px) and (max-width: 1024px) {
+  main .pl .principal {
+    width: 72%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  main .pl .principal .card {
+    max-width: 34.5%;
+    min-width: 30%;
+  }
+  main .pl .principal .card .ver {
+    height: 16rem;
+  }
+  main .pl aside {
+    width: 25%;
+    padding: 0;
+    margin: 0;
+  }
+  main .pl aside .des {
+    margin: 1px;
+  }
+  main .pl aside, main .pl .principal {
+    display: inline-block;
+    align-items: flex-start;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

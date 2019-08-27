@@ -1,0 +1,36 @@
+footer {
+  width: 100% auto;
+  /*background-color: cadetblue;*/
+  vertical-align: bottom;
+  align-content: flex-end;
+}
+footer section {
+  width: 95%;
+  height: auto;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding: 2rem;
+  padding-bottom: 0px;
+  background-color: cadetblue;
+}
+footer section .fin {
+  text-align: center;
+  width: 100%;
+  font-size: 1.5rem;
+  color: darkred;
+  background-color: #074e4e;
+}
+footer section .pie1, footer section .pie2, footer section .pie3 {
+  display: inline-block;
+  padding-left: 2rem;
+  padding-right: 2eem;
+}
+footer section .pie1 li a, footer section .pie2 li a, footer section .pie3 li a {
+  color: white;
+}
+footer section .pie1 h5, footer section .pie2 h5, footer section .pie3 h5 {
+  color: darkred;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=footer.css.map */
